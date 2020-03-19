@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CadastraFornecedor
+comment1.params=
+comment1.target=CadastraFornecedor()
+comment2.params=fornecedor
+comment2.target=CadastraFornecedor(Fornecedor)
+comment3.params=evento
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=cnpj\ fornecedor
+comment4.target=void\ cadastrarFornecedor(java.lang.String,\ Fornecedor)
+comment5.params=achou
+comment5.target=Fornecedor\ buscaFornecedor(java.lang.String)
+comment6.params=
+comment6.target=void\ salvarFornecedores()
+comment7.params=
+comment7.target=java.lang.String\ getCsvData()
+comment8.params=fornecedorList
+comment8.target=void\ setArrayData(java.util.ArrayList)
+numComments=9

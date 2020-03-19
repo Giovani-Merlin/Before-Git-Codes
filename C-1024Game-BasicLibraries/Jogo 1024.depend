@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1480539976 source:c:\users\alex\desktop\jogo 1024 - final\nova pasta\the game\bib1024.c
+	"bib1024.h"
+	<stdio.h>
+	<conio.h>
+	<conio2.h>
+	<windows.h>
+	<time.h>
+	<math.h>
+	<stdlib.h>
+
+1480532355 c:\users\alex\desktop\jogo 1024 - final\nova pasta\the game\bib1024.h
+
+1480541761 source:c:\users\alex\desktop\jogo 1024 - final\nova pasta\the game\main.c
+	"bib1024.h"
+

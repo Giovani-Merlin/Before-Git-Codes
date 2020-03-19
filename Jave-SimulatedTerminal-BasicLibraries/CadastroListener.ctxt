@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CadastroListener
+comment0.text=\r\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ CadastroListener\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\r\n
+comment1.params=id\ peca
+comment1.target=void\ cadastrarPeca(int,\ Peca)
+comment2.params=id
+comment2.target=double\ achaPreco(int)
+comment3.params=id\ quantidade
+comment3.target=void\ venderPeca(int,\ int)
+comment4.params=id
+comment4.target=void\ removeKey(int)
+comment5.params=id
+comment5.target=boolean\ verificaKey(int)
+numComments=6

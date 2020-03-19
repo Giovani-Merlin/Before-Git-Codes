@@ -1,0 +1,284 @@
+t 75.0 185.0 sf1_fdoff s 0 w n {} ne
+t 345.0 185.0 sf1_wplv s 0 w n {} ne
+p 215.0 185.0 {SF1 Mandando a Peça} 0 n
+t 75.0 95.0 sf1_fdhome w 0 w n {} ne
+p 215.0 95.0 {Atuador Pronto} 1 n
+t 345.0 95.0 sf1_fdon ne 0 w n {} ne
+p 545.0 95.0 {Esteira Pm1 Ligada} 1 n
+p 545.0 185.0 {Peça Vindo Pm1} 0 n
+p 725.0 185.0 {Peça Chegou Pm1} 0 n
+t 640.0 185.0 pm1_wpar n 0 w n {} ne
+p 895.0 185.0 p7 0 n
+t 795.0 185.0 pm1_boff ne 0 w n {} ne
+t 950.0 185.0 {pm1_pm+} n 0 w n {} ne
+p 1040.0 185.0 p8 0 n
+t 1040.0 225.0 {pm1_ps+} s 0 w n {} ne
+p 795.0 225.0 {Começa Ou Finaliza} 0 n
+t 725.0 225.0 pm1_mon s 0 w n {} ne
+t 545.0 225.0 pm1_mack w 0 w n {} ne
+t 595.0 300.0 pm1_moff s 0 w n {} ne
+t 895.0 225.0 pm1_poff s 0 w n {} ne
+p 595.0 225.0 p11 0 n
+p 545.0 300.0 p12 0 w
+t 725.0 340.0 {pm1_pm-} s 0 w n {} ne
+p 795.0 340.0 p16 0 n
+p 1040.0 340.0 {Peça Pronta Pm1} 0 s
+t 895.0 340.0 {pm1_ps-} s 0 w n {} ne
+p 895.0 265.0 {Finalizar Processo} 1 e
+p 950.0 225.0 {Começar Processo} 0 n
+t 950.0 95.0 {pm1_bm+} n 0 w n {} ne
+t 1545.0 135.0 cb_wpar n 0 w n {} ne
+p 1205.0 85.0 {Pm Pode Mandar Peça} 1 n
+p 1355.0 135.0 {Peça Vindo pra Cb} 0 n
+p 2185.0 310.0 {Enviando Peça} 0 n
+t 2185.0 255.0 {ds_p1s+} se 0 w n {} ne
+p 2480.0 175.0 {Peça Chegou em Ds} 0 e
+t 2480.0 255.0 ds_boff se 0 w n {} ne
+t 2345.0 310.0 {ds_p1m+} n 0 w n {} ne
+p 1665.0 135.0 {Peça movendo em Cb} 0 e
+t 1665.0 220.0 cb_boff n 0 w n {} ne
+p 2480.0 310.0 p35 0 n
+p 2325.0 255.0 p25 0 n
+t 2410.0 255.0 {ds_p1m-} n 0 w n {} ne
+p 2410.0 175.0 p23 0 n
+t 2320.0 175.0 {Processamento Terminou} n 0 w n {} ne
+p 60.0 510.0 p1 0 n
+t 60.0 545.0 sf2_fdoff s 0 w n {} ne
+p 175.0 545.0 p2 0 n
+t 60.0 460.0 sf2_fdhome w 0 w n {} ne
+p 175.0 460.0 p3 1 n
+t 330.0 460.0 sf2_fdon s 0 w n {} ne
+p 330.0 420.0 {Peça espera} 0 w
+t 330.0 380.0 sfw_wpar w 0 w n {} ne
+p 500.0 460.0 {Esteira Pm2 Ligada} 1 n
+p 500.0 545.0 {Peça vindo PM2} 0 n
+p 685.0 545.0 p10 0 n
+t 595.0 545.0 pm2_wpar n 0 w n {} ne
+p 850.0 545.0 p13 0 n
+t 785.0 545.0 pm2_boff n 0 w n {} ne
+t 910.0 545.0 {pm2_pm+} n 0 w n {} ne
+p 1000.0 545.0 p14 0 n
+t 1000.0 600.0 {pm2_ps+} s 0 w n {} ne
+p 785.0 600.0 {Começa ou finaliza pm2} 0 n
+t 500.0 600.0 pm2_mack w 0 w n {} ne
+t 585.0 650.0 pm2_moff s 0 w n {} ne
+t 850.0 600.0 pm2_poff s 0 w n {} ne
+p 585.0 600.0 p19 0 n
+p 500.0 650.0 p20 0 w
+t 685.0 700.0 {pm2_pm-} s 0 w n {} ne
+p 1000.0 700.0 {Peça pronta pm2} 0 s
+t 850.0 700.0 {pm2_ps-} s 0 w n {} ne
+p 910.0 600.0 {Começar processo} 0 n
+p 685.0 650.0 p18 0 n
+t 685.0 600.0 pm2_mon s 0 w n {} ne
+p 330.0 510.0 p0 0 e
+p 725.0 300.0 p15 0 n
+p 785.0 700.0 p22 0 n
+t 1480.0 85.0 cb_wplv n 0 w n {} ne
+t 1665.0 50.0 {cb_bm+} n 0 w n {} ne
+p 2185.0 380.0 {Peça chegando em RB} 0 w
+p 2315.0 580.0 {Peça saiu de RB} 0 e
+t 2185.0 430.0 rb_wpar w 0 w n {} ne
+p 2185.0 460.0 {Peça chegou em RB} 0 w
+p 2455.0 460.0 {RB na vertical} 0 e
+t 2455.0 500.0 rb_scw e 0 w n {} ne
+p 2455.0 550.0 {RB girando para a vertical} 0 e
+t 2455.0 585.0 rb_rcw s 0 w n {} ne
+p 1935.0 470.0 {RB girando para a horizontal} 0 w
+t 1935.0 515.0 rb_sccw w 0 w n {} ne
+t 2185.0 525.0 {rb_bm+} sw 0 w n {} ne
+p 2075.0 410.0 {RB pronta para girar para a Horizontal} 0 n
+p 2315.0 460.0 {Peça no exit slide} 0 e
+t 2315.0 525.0 xs_wpar e 0 w n {} ne
+p 850.0 650.0 {Finalizar Processo Pm2} 1 e
+p 2185.0 175.0 {Ds Enviou Peça} 0 sw
+p 1920.0 135.0 {cb desligado} 0 e
+t 1230.0 135.0 pm1_wplv s 0 w n {} ne
+p 1950.0 220.0 {Cb Pode Desligar} 0 n
+p 2010.0 85.0 {Ds Livre} 1 n
+t 2480.0 85.0 ds_p1wpar e 0 w n {} ne
+t 2185.0 105.0 {ds_bm+} n 0 w n {} ne
+t 1325.0 265.0 voltasf1 w 0 w n {} ne
+p 2185.0 560.0 {Peça saindo de RB} 0 w
+t 2185.0 620.0 rb_wplv w 0 w n {} ne
+t 2315.0 410.0 xs_wplv e 0 w n {} ne
+p 2320.0 380.0 {XS Livre} 1 e
+t 1935.0 410.0 rb_rccw w 0 w n {} ne
+p 1935.0 585.0 {RB na horizontal com carga} 0 s
+t 1740.0 500.0 pm2_wplv s 0 w n {} ne
+p 1600.0 500.0 {Peça saindo pm2} 0 n
+p 345.0 135.0 {Peça Movendo} 0 e
+p 75.0 135.0 {Atuador Voltando} 0 n
+p 440.0 380.0 {pilha SF2} 3 n
+p 345.0 55.0 {Peça aguardando} 0 w
+t 330.0 545.0 sf2_wplv s 0 w n {} ne
+t 1470.0 500.0 {pm2_bm-} n 0 w n {} ne
+p 1160.0 95.0 {Esteira PM1 Religada} 0 s
+t 1335.0 365.0 Voltasf2 s 0 w n {} ne
+p 1530.0 365.0 {Peça Irá Voltar SF2} 0 n
+p 1430.0 305.0 Reiniciavel 0 n
+p 1445.0 265.0 {Peça Irá Voltar SF1} 0 e
+p 2380.0 620.0 {RB na horizontal} 1 n
+p 2555.0 255.0 {Peça Aguardando em Ds} 0 n
+p 2480.0 45.0 {Ds recebendo peça} 0 n
+t 390.0 55.0 sf1_wpar n 0 w n {} ne
+p 475.0 55.0 {Pilha SF1} 3 n
+e {pilha SF2} sfw_wpar 1 n
+e Reiniciavel voltasf1 1 n
+e Reiniciavel Voltasf2 1 n
+e {pm2_ps-} 0.02226360507 318.0263194 {Peça Irá Voltar SF2} 0.574579057 245.9499502 1 n
+e {Processamento Terminou} 0.5629233432 318.8265885 {Peça Irá Voltar SF1} 0.9734112492 233.1924544 1 n
+e {Peça Irá Voltar SF2} Voltasf2 1 n
+e {Peça Irá Voltar SF1} voltasf1 1 n
+e voltasf1 0.2107128168 240.1774082 {Pilha SF1} 0.004973224132 290.4337976 1 n
+e Voltasf2 0.5317508533 252.6892206 {pilha SF2} 0.01097553267 251.7305701 1 n
+e xs_wplv 0.3637433738 212.4791032 Reiniciavel 0.000252327934 380.5521863 1 n
+e {pm2_ps-} 0.03112088769 109.0404521 {Começar processo} 0.7174713741 20.94946259 1 n
+e {pm1_ps-} 0.04740795596 89.03058932 {Começar Processo} 0.9318747118 99.12717877 1 n
+e {cb_bm+} {Peça movendo em Cb} 1 n
+e cb_wplv {Pm Pode Mandar Peça} 1 n
+e {cb desligado} {cb_bm+} 1 n
+e cb_boff {cb desligado} 1 n
+e {Ds Enviou Peça} {ds_bm+} 1 n
+e cb_wplv 0.04335635368 269.7966968 {Ds recebendo peça} 0.5000000021 348.9648 1 n
+e {Peça movendo em Cb} cb_wplv 1 n
+e {Começar Processo} 0.8345142919 88.16084466 pm1_mon 0.908567881 77.89044806 1 n
+e {Finalizar Processo} pm1_poff 1 n
+e {pm1_ps-} {Finalizar Processo} 2 se
+e {pm1_bm+} {Esteira Pm1 Ligada} 1 n
+e {Peça Pronta Pm1} 0.05123380937 109.4558563 {pm1_bm+} 0.001366197745 224.1238504 1 n
+e {pm1_ps-} {Peça Pronta Pm1} 1 n
+e {pm1_pm+} p8 1 n
+e p16 {pm1_ps-} 1 n
+e {pm1_pm-} p16 1 n
+e p15 {pm1_pm-} 1 n
+e pm1_moff p15 1 n
+e p12 pm1_moff 1 n
+e pm1_mack p12 1 n
+e pm1_mon p11 1 n
+e p11 pm1_mack 1 n
+e {Começa Ou Finaliza} pm1_mon 1 n
+e pm1_poff {Começa Ou Finaliza} 1 n
+e {Começar Processo} pm1_poff 1 n
+e {pm1_ps+} {Começar Processo} 2 se
+e p8 {pm1_ps+} 1 n
+e p7 {pm1_pm+} 1 n
+e pm1_boff p7 1 n
+e {Peça Chegou Pm1} pm1_boff 1 n
+e pm1_wpar {Peça Chegou Pm1} 1 n
+e {Peça Vindo Pm1} pm1_wpar 1 n
+e sf1_wplv {Peça Vindo Pm1} 1 n
+e {Esteira Pm1 Ligada} 0.5027841306 53.77076405 sf1_fdon 0.9978081583 68.29943047 1 n
+e sf1_fdhome {Atuador Pronto} 1 n
+e {Atuador Voltando} sf1_fdhome 1 n
+e sf1_fdoff {Atuador Voltando} 1 n
+e {SF1 Mandando a Peça} sf1_fdoff 1 n
+e sf1_wplv {SF1 Mandando a Peça} 1 n
+e {Peça Movendo} sf1_wplv 1 n
+e sf1_fdon {Peça Movendo} 1 n
+e {Peça aguardando} sf1_fdon 1 n
+e sf1_wpar {Peça aguardando} 1 n
+e {Pilha SF1} sf1_wpar 1 n
+e {Atuador Pronto} sf1_fdon 1 n
+e cb_wpar {Peça movendo em Cb} 1 n
+e {Pm Pode Mandar Peça} {pm1_bm+} 1 n
+e {Peça Vindo pra Cb} cb_wpar 1 n
+e {Peça movendo em Cb} cb_boff 1 n
+e ds_p1wpar {Peça Chegou em Ds} 1 n
+e {ds_p1m+} {Enviando Peça} 1 n
+e {Enviando Peça} {ds_p1s+} 1 n
+e {ds_p1s+} p25 1 n
+e p25 {ds_p1m-} 1 n
+e {ds_p1m-} p23 1 n
+e {Ds recebendo peça} ds_p1wpar 1 n
+e p23 {Processamento Terminou} 1 n
+e {Processamento Terminou} {Ds Enviou Peça} 1 n
+e {Peça Chegou em Ds} ds_boff 1 n
+e p35 {ds_p1m+} 1 n
+e ds_boff p35 1 n
+e p3 sf2_fdon 1 n
+e sfw_wpar {Peça espera} 1 n
+e {Peça espera} sf2_fdon 1 n
+e sf2_fdon p0 1 n
+e p0 sf2_wplv 1 n
+e sf2_wplv p2 1 n
+e p2 sf2_fdoff 1 n
+e sf2_fdoff p1 1 n
+e p1 sf2_fdhome 1 n
+e sf2_fdhome p3 1 n
+e {Esteira Pm2 Ligada} 0.50278413 53.77076405 sf2_fdon 0.9978081564 68.29943048 1 n
+e sf2_wplv {Peça vindo PM2} 1 n
+e {Peça vindo PM2} pm2_wpar 1 n
+e pm2_wpar p10 1 n
+e p10 pm2_boff 1 n
+e pm2_boff p13 1 n
+e p13 {pm2_pm+} 1 n
+e p14 {pm2_ps+} 1 n
+e {pm2_ps+} {Começar processo} 2 se
+e {Começar processo} pm2_poff 1 n
+e pm2_poff {Começa ou finaliza pm2} 1 n
+e {Começa ou finaliza pm2} pm2_mon 1 n
+e p19 pm2_mack 1 n
+e pm2_mon p19 1 n
+e pm2_mack p20 1 n
+e p20 pm2_moff 1 n
+e pm2_moff p18 1 n
+e p18 {pm2_pm-} 1 n
+e {pm2_pm-} p22 1 n
+e p22 {pm2_ps-} 1 n
+e {pm2_pm+} p14 1 n
+e {pm2_ps-} {Peça pronta pm2} 1 n
+e {Peça pronta pm2} 0.05123380642 109.4558567 {pm2_bm-} 0.7757078154 105.7537557 1 n
+e {pm2_bm-} {Esteira Pm2 Ligada} 1 n
+e {pm2_ps-} {Finalizar Processo Pm2} 2 e
+e {Finalizar Processo Pm2} pm2_poff 1 n
+e {Começar processo} 0.6903711349 55.5875936 pm2_mon 0.9085678834 77.8904478 1 n
+e {Ds Livre} 0.5471410846 183.7021008 cb_wplv 0.9711411912 188.5550646 1 n
+e cb_wplv {Ds Livre} 1 n
+e {Ds Livre} ds_p1wpar 1 n
+e {Cb Pode Desligar} 0.2370548389 56.63231997 cb_boff 0.02028728814 199.3340363 1 n
+e ds_p1wpar 0.5444402292 134.0810663 {Cb Pode Desligar} 0.09409663906 119.0695535 1 n
+e {Ds Livre} 0.4656053254 115.3606808 {cb_bm+} 0.01581711663 158.1031809 1 n
+e {cb_bm+} 0.9852604433 117.4325377 {Ds Livre} 0.4880395528 104.4682222 1 n
+e {RB na horizontal} 0.9887330401 112.2479945 rb_rcw 0.9439404763 93.35499459 1 n
+e rb_scw {RB na vertical} 1 n
+e {RB girando para a vertical} rb_scw 1 n
+e rb_rcw {RB girando para a vertical} 1 n
+e {RB pronta para girar para a Horizontal} rb_rccw 1 n
+e {RB girando para a horizontal} rb_sccw 1 n
+e {Peça saindo de RB} rb_wplv 1 n
+e rb_wplv {Peça saiu de RB} 1 n
+e xs_wpar {Peça no exit slide} 1 n
+e {Peça no exit slide} xs_wplv 1 n
+e {Peça saiu de RB} xs_wpar 1 n
+e rb_rccw {RB girando para a horizontal} 1 n
+e {XS Livre} 0.5948770383 91.62432796 {rb_bm+} 0.1462403881 72.5247193 1 n
+e rb_sccw {RB na horizontal com carga} 1 n
+e {RB na horizontal com carga} {rb_bm+} 1 n
+e {rb_bm+} {Peça saindo de RB} 1 n
+e rb_wplv {RB na horizontal} 1 n
+e {Peça chegando em RB} rb_wpar 1 n
+e rb_wpar {Peça chegou em RB} 1 n
+e {Peça chegou em RB} {rb_bm+} 1 n
+e {ds_p1s+} 0.5232383902 134.1128695 {Peça chegando em RB} 0.2320793197 60.24931706 1 n
+e {Processamento Terminou} 0.5545643399 328.4451711 {RB pronta para girar para a Horizontal} 0.2525034435 67.58200271 1 n
+e {RB na horizontal} 0.5262936078 172.4266966 {pm2_bm-} 0.9433306874 430.9696197 1 n
+e {RB na vertical} {ds_p1m+} 1 n
+e ds_boff {Peça Aguardando em Ds} 1 n
+e {Peça Aguardando em Ds} 0.7253239915 164.1653116 rb_rcw 0.08363122004 61.05106883 1 n
+e {ds_bm+} {Ds Livre} 1 n
+e {Começa Ou Finaliza} 0.005138193715 65.37136038 {pm1_bm+} 0.5573977195 74.74690913 1 n
+e {Começa ou finaliza pm2} 0.2160306772 155.5707564 {pm2_bm-} 0.6234073762 60.58889118 1 n
+e {pm1_bm+} {Esteira PM1 Religada} 1 n
+e {Esteira PM1 Religada} pm1_wplv 1 n
+e pm1_wplv {Peça Vindo pra Cb} 1 n
+e {pm2_bm-} {Peça saindo pm2} 1 n
+e {Peça saindo pm2} pm2_wplv 1 n
+e pm2_wplv {RB na horizontal com carga} 1 n
+e pm2_wplv 0.01229138558 235.5931491 {Peça chegando em RB} 0.5907013855 39.13827781 1 n
+e {Cb Pode Desligar} 0.9497398142 130.0581668 {Processamento Terminou} 0.5229508615 112.4310937 1 n
+e cb_boff {Cb Pode Desligar} 1 n
+e xs_wplv 0.05516428121 49.72907637 {XS Livre} 0.8918022572 45.1068663 1 n
+h sfv3 small
+
+
